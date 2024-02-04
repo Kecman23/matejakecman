@@ -1,0 +1,375 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  5% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(10deg);
+  }
+  15% {
+    transform: rotate(-10deg);
+  }
+  20% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.navlinks a:hover {
+  animation: wiggle 2.5s;
+}
+
+.container {
+  margin: auto;
+  width: 1024px;
+}
+.navlinks {
+  display: flex;
+  align-items: center;
+}
+.navlinks a {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: Lato, sans-serif;
+  text-decoration: none;
+  font-size: 15px;
+}
+.hero {
+  background-image: url("c:/Users/Mateja/Desktop/sajt 2024/images/small-business-shipping.jpg");
+  font-family: "Playfair Display", serif;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero .overlay {
+  background-color: rgb(63, 89, 229, 0.6);
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+}
+.hero h1 {
+  font-size: 44px;
+  padding-top: 300px;
+}
+.hero h2 {
+  font-size: 20px;
+  padding-top: 20px;
+}
+.hero button {
+  margin-top: 20px;
+  margin-bottom: 300px;
+  background-color: #1855a3;
+  border: 2px solid white;
+  padding: 10px;
+  font-family: "Playfair Display", serif;
+  color: white;
+  border-radius: 25px;
+  transition-duration: 1s;
+  transition-property: all;
+}
+.hero button:hover {
+  background-color: #0a1f3b;
+
+  padding: 20px;
+  font-size: 20px;
+}
+.hero a {
+  text-decoration: none;
+  color: white;
+}
+
+.usluge h1 {
+  color: #1855a3;
+  font-size: 45px;
+  margin-top: 40px;
+  text-align: center;
+}
+.usluge p {
+  line-height: 24px;
+  width: 512px;
+  margin: auto;
+  color: #1855a3;
+  font-family: "Playfair Display", serif;
+  font-size: 15px;
+  margin-top: 15px;
+  text-align: center;
+}
+.blueback {
+  background-color: #1855a3;
+  width: 600px;
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 30px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+.blueback img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+.uslugeimg {
+  display: flex;
+  justify-content: space-around;
+}
+.icons {
+  background-color: #1855a3;
+}
+.icons img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+  transition-duration: 500ms;
+  transition-property: all;
+}
+.icons .container {
+  display: flex;
+  justify-content: space-around;
+}
+.iconposition {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.iconposition img:hover {
+  width: 150px;
+  height: 150px;
+}
+
+.icondiv span {
+  color: white;
+  font-family: "Playfair Display", serif;
+}
+.kontaktcenter {
+  text-align: center;
+}
+.kontaktcenter h1 {
+  margin-top: 20px;
+  color: #1855a3;
+  font-size: 45px;
+  font-family: "Platfair Display", serif;
+}
+.kontaktcenter p {
+  margin-top: 10px;
+  font-family: "Lato", sans-serif;
+  color: #1855a3;
+}
+.formdiv {
+  margin-top: 150px;
+}
+.formdiv .field {
+  width: 600px;
+  background-color: rgba(24, 85, 163, 0.3);
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+
+  border: 1px solid #ccc;
+}
+.formdiv ::placeholder {
+  color: #1855a3;
+  opacity: 50%;
+}
+.formdiv form {
+  text-align: center;
+}
+.formdiv .subbtn {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #1855a3;
+  color: white;
+  border: 1px solid #ccc;
+  font-family: "Platfair Display", serif;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.subbtn:hover {
+  cursor: pointer;
+}
+.footer {
+  background-color: #1855a3;
+  font-family: "Lato", sans-serif;
+}
+.footer a {
+  text-decoration: none;
+}
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.footerlinks {
+  margin-top: 5px;
+}
+.footerlinks a {
+  display: flex;
+  flex-direction: column;
+  width: 140px;
+
+  margin-bottom: 20px;
+  color: white;
+}
+.footertext span {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+}
+.footernaslov {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+}
+.prava {
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+.proizvodi h1 {
+  text-align: center;
+  margin-top: 30px;
+  color: #1855a3;
+  font-size: 50px;
+  font-family: "Playfair Display", serif;
+}
+.proizvodi .container {
+  display: flex;
+  justify-content: space-around;
+}
+.proizvodi img {
+  width: 220px;
+  height: 150px;
+  border-radius: 10px;
+  margin: 15px;
+}
+.proizvodi h2 {
+  text-align: center;
+  margin-top: 30px;
+  color: #1855a3;
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 20px;
+}
+.bluediv {
+  background-color: #1855a3;
+  border-radius: 10px;
+}
+.whitediv {
+  background-color: white;
+  margin: 15px;
+  border-radius: 10px;
+}
+.margindiv {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.materijali h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #1855a3;
+  font-family: "Playfair Display", serif;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.materijalidiv {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.materijalidiv h3 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #1855a3;
+  font-size: 25px;
+  font-family: "Playfair Display", serif;
+}
+.materijalidiv p {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 30px;
+  font-size: 18px;
+  color: #1855a3;
+  font-family: "Lato", sans-serif;
+}
+.materijalidiv img {
+  width: 512px;
+}
+.primena h1 {
+  text-align: center;
+  color: #1855a3;
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+  margin-top: 20px;
+}
+.primena .container {
+  background-color: #1855a3;
+  padding: 25px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.primenadiv {
+  display: flex;
+  align-items: center;
+}
+.primenadiv p {
+  margin: 15px;
+  color: white;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+.primenadiv h3 {
+  text-align: center;
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+}
+.primena img {
+  width: 512px;
+}
+.mape {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+iframe {
+  width: 400px;
+  height: 400px;
+}
+.biografija .container {
+  background-color: #1855a3;
+  padding: 25px;
+  display: flex;
+  margin-bottom: 20px;
+}
+.biografija img {
+  width: 512px;
+}
+.biodiv {
+  text-align: center;
+  color: white;
+}
+.biodiv h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.biodiv p {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  padding: 10px;
+}
